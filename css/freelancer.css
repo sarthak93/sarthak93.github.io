@@ -79,6 +79,8 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+
+
 header {
     text-align: center;
     color: #fff;
@@ -88,24 +90,30 @@ header {
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
+    position: relative;
+
 }
 
 header img {
     display: block;
     margin: 0 auto 20px;
+    z-index: 3;
 }
 
+}
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    z-index: 1;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    z-index: 1;
 }
 
 @media(min-width:768px) {
@@ -264,11 +272,18 @@ section.success a.active {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
+    color: #2c3e50;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+.btn-outline2 {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
     color: #fff;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
-
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -457,3 +472,64 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: static;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}  /*background-image: url("../images/screen.jpg");
+  */
+
+/*#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2FA7DC;
+  background-image: url("../images/screen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/* ---- stats.js ---- 
+
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+*/
+
