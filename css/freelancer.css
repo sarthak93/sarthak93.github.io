@@ -115,7 +115,22 @@ header .intro-text .skills {
     font-weight: 300;
     z-index: 1;
 }
+/*Added recently */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
 
+/* Hides shit */
+.hidden {
+    text-indent: -9999px;
+    visibility: hidden;
+    display: none;
+}
+/*End of recent add*/
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
@@ -476,7 +491,8 @@ footer .footer-below {
 /* ---- particles.js container ---- */
 
 #particles-js {
-    position: static;
+    position: absolute;
+    top:0px;
     z-index: 2;
     background-repeat: no-repeat;
     background-size: cover;
