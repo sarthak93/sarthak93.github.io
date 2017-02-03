@@ -492,7 +492,7 @@ footer .footer-below {
 
 #particles-js {
     position: fixed;
-    top:30px;
+    top:100px;
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
