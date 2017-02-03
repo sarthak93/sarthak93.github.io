@@ -1,10 +1,12 @@
-particlesJS("particles-js",{
+particlesJS("particles-js",
+
+{
   "particles": {
     "number": {
-      "value": 200,
+      "value": 183,
       "density": {
         "enable": true,
-        "value_area": 1000
+        "value_area": 962.0472365193136
       }
     },
     "color": {
@@ -17,7 +19,7 @@ particlesJS("particles-js",{
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 3
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -26,8 +28,8 @@ particlesJS("particles-js",{
       }
     },
     "opacity": {
-      "value": 0.5,
-      "random": false,
+      "value": 0.47300655795532925,
+      "random": true,
       "anim": {
         "enable": false,
         "speed": 1,
@@ -36,21 +38,21 @@ particlesJS("particles-js",{
       }
     },
     "size": {
-      "value": 4.008530152163807,
+      "value": 8.017060304327615,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 17.053621458328248,
-        "size_min": 0,
-        "sync": true
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
       }
     },
     "line_linked": {
       "enable": false,
-      "distance": 128.27296486924183,
+      "distance": 240.5118091298284,
       "color": "#ffffff",
-      "opacity": 0.30464829156444934,
-      "width": 1.122388442605866
+      "opacity": 0.4,
+      "width": 1
     },
     "move": {
       "enable": true,
@@ -68,7 +70,7 @@ particlesJS("particles-js",{
     }
   },
   "interactivity": {
-    "detect_on": "window",
+    "detect_on": "canvas",
     "events": {
       "onhover": {
         "enable": true,
@@ -82,20 +84,20 @@ particlesJS("particles-js",{
     },
     "modes": {
       "grab": {
-        "distance": 140,
+        "distance": 131.86813186813188,
         "line_linked": {
-          "opacity": 0.75
+          "opacity": 0.8742744736139111
         }
       },
       "bubble": {
-        "distance": 400,
+        "distance": 731.2687312687312,
         "size": 40,
         "duration": 2,
         "opacity": 8,
         "speed": 3
       },
       "repulse": {
-        "distance": 284.2270243054708,
+        "distance": 71.92807192807193,
         "duration": 0.4
       },
       "push": {
@@ -106,7 +108,9 @@ particlesJS("particles-js",{
       }
     }
   },
-  "retina_detect": true});
+  "retina_detect": false
+}
+  );
 
 // var count_particles, stats, update;
 // // stats = new Stats;
