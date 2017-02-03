@@ -97,7 +97,7 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
-    z-index: 3;
+    z-index: 10;
 }
 
 }
@@ -107,13 +107,13 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
-    z-index: 1;
+    z-index: 10;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
-    z-index: 1;
+    z-index: 10;
 }
 /*Added recently */
 .clearfix:before,
@@ -491,9 +491,9 @@ footer .footer-below {
 /* ---- particles.js container ---- */
 
 #particles-js {
-    position: absolute;
-    top:100px;
-    z-index: 2;
+    position: fixed;
+    top:0px;
+    z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
