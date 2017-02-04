@@ -3,13 +3,14 @@ particlesJS("particles-js",
 {
   "particles": {
     "number": {
-      "value": 183,
+      "value": 180,
       "density": {
         "enable": true,
-        "value_area": 962.0472365193136
+        "value_area": 900
       }
     },
     "color": {
+      // "value": "#ffffff"
       "value": "#ffffff"
     },
     "shape": {
@@ -23,22 +24,22 @@ particlesJS("particles-js",
       },
       "image": {
         "src": "img/github.svg",
-        "width": 100,
-        "height": 100
+        "width": 1,
+        "height": 1
       }
     },
     "opacity": {
-      "value": 0.47300655795532925,
+      "value": 0.5,
       "random": true,
       "anim": {
         "enable": false,
         "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
+        "opacity_min": 0.3,
+        "sync": true
       }
     },
     "size": {
-      "value": 8.017060304327615,
+      "value": 6,
       "random": true,
       "anim": {
         "enable": false,
@@ -80,13 +81,13 @@ particlesJS("particles-js",
         "enable": true,
         "mode": "push"
       },
-      "resize": true
+      "resize": false
     },
     "modes": {
       "grab": {
-        "distance": 131.86813186813188,
+        "distance": 200,
         "line_linked": {
-          "opacity": 0.8742744736139111
+          "opacity": 0.9
         }
       },
       "bubble": {
@@ -101,14 +102,14 @@ particlesJS("particles-js",
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 20
       },
       "remove": {
         "particles_nb": 2
       }
     }
   },
-  "retina_detect": false
+  "retina_detect": true
 }
   );
 

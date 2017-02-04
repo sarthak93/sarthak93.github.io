@@ -489,11 +489,29 @@ footer .footer-below {
 }
 
 /* ---- particles.js container ---- */
-
+/*canvas{
+    overflow:overlay;
+    /*border:1px solid #000000;*/
+    /*margin:20px auto 20px;
+    display: inline;
+    vertical-align: middle;
+}*/
+/*#particles-js-canvas-el {
+    position: absolute;
+    top:100;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}*/
 #particles-js {
     position: fixed;
-    top:100px;
-    z-index: 1;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    z-index: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
