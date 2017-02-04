@@ -107,13 +107,13 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
-    z-index: 10;
+    /*z-index: 10;*/
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
-    z-index: 10;
+    /*z-index: 10;*/
 }
 /*Added recently */
 .clearfix:before,
