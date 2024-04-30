@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sarthak Jain | Engineer</title>
-    <link>https://sarthakjain.info/categories/</link>
+    <link>https://sarthak93.github.io/categories/</link>
     <description>Recent content in Categories on Sarthak Jain | Engineer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sarthakjain.info/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://sarthak93.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
